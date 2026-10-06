@@ -155,3 +155,84 @@ address{font-style:normal;color:var(--muted);font-size:12px;line-height:2}
 @media(max-width:620px){
   .hero-community-mark{width:82px;height:82px;margin-bottom:14px}
 }
+
+
+/* Nathoeng Community blue palette · 2026-10-06 */
+:root{
+  --paper:#E3F2FD;
+  --white:#ffffff;
+  --ink:#0D47A1;
+  --muted:rgba(13,71,161,.68);
+  --forest:#2196F3;
+  --forest-dark:#0D47A1;
+  --bronze:#2196F3;
+  --border:rgba(144,202,249,.72);
+}
+body{background:var(--paper);color:var(--ink)}
+a:focus-visible,summary:focus-visible{outline-color:#2196F3}
+.site-header{background:rgba(227,242,253,.96);border-bottom-color:rgba(144,202,249,.72)}
+.brand-dot{color:#2196F3}
+.main-nav a:hover{color:#2196F3}
+.member-link{border-color:#90CAF9;background:rgba(255,255,255,.48);color:#0D47A1}
+.member-link:hover{background:#90CAF9}
+.hero .eyebrow,.eyebrow{color:#2196F3}
+.hero .eyebrow span{background:#2196F3}
+h1{color:#0D47A1}
+h1 span{color:#2196F3}
+.hero-description,.hero-location{color:rgba(13,71,161,.68)}
+.button-primary{background:#0D47A1}
+.button-primary:hover{background:#2196F3}
+.button-secondary{border-color:#90CAF9;color:#0D47A1;background:rgba(255,255,255,.34)}
+.button-secondary:hover{background:#90CAF9}
+.hero-image{background:#0D47A1;box-shadow:10px 12px 0 #90CAF9}
+.hero-image::after{background:linear-gradient(180deg,transparent 50%,rgba(13,71,161,.72))}
+.image-caption-line{background:#90CAF9}
+.hero-image figcaption small{color:#E3F2FD}
+.event-banner{border-color:#90CAF9;background:rgba(144,202,249,.34)}
+.event-date{border-right-color:#90CAF9;color:#0D47A1}
+.event-copy>p:last-child{color:rgba(13,71,161,.68)}
+.event-action{color:#0D47A1}
+.event-action:hover{color:#2196F3}
+.project-card{border-color:rgba(144,202,249,.72);background:rgba(255,255,255,.9)}
+.project-card:hover{border-color:#2196F3;box-shadow:0 9px 24px rgba(13,71,161,.10)}
+.card-icon{background:#E3F2FD;color:#0D47A1}
+.tone-sage{color:#0D47A1;background:#E3F2FD}
+.tone-blue{color:#0D47A1;background:#90CAF9}
+.tone-lilac{color:#2196F3;background:#E3F2FD}
+.tone-sand{color:#0D47A1;background:#90CAF9}
+.tone-rose{color:#2196F3;background:#E3F2FD}
+.card-category,.card-arrow,.card-bottom{color:rgba(13,71,161,.58)}
+.card-bottom>span:last-child{color:#0D47A1}
+.featured-card{background:#0D47A1;color:#fff;border-color:#0D47A1}
+.featured-card:hover{border-color:#2196F3;box-shadow:0 9px 24px rgba(13,71,161,.22)}
+.featured-card .card-icon{background:rgba(144,202,249,.20);color:#E3F2FD}
+.featured-card .card-category,.featured-card .card-arrow{color:#90CAF9}
+.featured-card>p{color:#E3F2FD}
+.featured-card .card-bottom{border-color:rgba(144,202,249,.28);color:#90CAF9}
+.featured-card .card-bottom>span:last-child{color:#E3F2FD}
+.member-strip{border-color:#90CAF9;background:rgba(144,202,249,.30)}
+.member-strip-icon{background:#90CAF9;color:#0D47A1}
+.member-strip>a:hover{color:#2196F3}
+.about-section{background:rgba(144,202,249,.22);border-block-color:#90CAF9}
+.about-identity{border-right-color:#90CAF9}
+.about-identity>p{color:#0D47A1}
+.about-identity>span{color:rgba(13,71,161,.68)}
+.text-link{color:#0D47A1}
+.text-link:hover{color:#2196F3}
+.contact-address{background:rgba(144,202,249,.28);border-color:#90CAF9}
+.address-icon{background:#90CAF9;color:#0D47A1}
+.staff-section details{border-color:#90CAF9;background:rgba(255,255,255,.86)}
+.staff-content{border-top-color:#90CAF9}
+.expand-indicator{color:#2196F3}
+.site-footer{background:#0D47A1;color:#fff}
+.footer-brand{color:#E3F2FD}
+.footer-inner p,.footer-bottom{color:#90CAF9}
+.footer-inner nav{color:#E3F2FD}
+.footer-inner nav a:hover{color:#90CAF9}
+.footer-bottom{border-top-color:rgba(144,202,249,.28)}
+.community-brand-mark{filter:drop-shadow(0 2px 5px rgba(13,71,161,.14))}
+.hero-community-mark,.about-community-mark{filter:drop-shadow(0 8px 18px rgba(13,71,161,.16))}
+@media(max-width:620px){
+  .hero-image{box-shadow:6px 7px 0 #90CAF9}
+  .about-identity{border-bottom-color:#90CAF9}
+}
