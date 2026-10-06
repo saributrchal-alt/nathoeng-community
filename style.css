@@ -159,7 +159,7 @@ address{font-style:normal;color:var(--muted);font-size:12px;line-height:2}
 
 /* Nathoeng Community blue palette · 2026-10-06 */
 :root{
-  --paper:#E3F2FD;
+  --paper:#ffffff;
   --white:#ffffff;
   --ink:#0D47A1;
   --muted:rgba(13,71,161,.68);
@@ -168,9 +168,9 @@ address{font-style:normal;color:var(--muted);font-size:12px;line-height:2}
   --bronze:#2196F3;
   --border:rgba(144,202,249,.72);
 }
-body{background:var(--paper);color:var(--ink)}
+body{background:#ffffff;color:var(--ink)}
 a:focus-visible,summary:focus-visible{outline-color:#2196F3}
-.site-header{background:rgba(227,242,253,.96);border-bottom-color:rgba(144,202,249,.72)}
+.site-header{background:rgba(255,255,255,.97);border-bottom-color:rgba(144,202,249,.72)}
 .brand-dot{color:#2196F3}
 .main-nav a:hover{color:#2196F3}
 .member-link{border-color:#90CAF9;background:rgba(255,255,255,.48);color:#0D47A1}
